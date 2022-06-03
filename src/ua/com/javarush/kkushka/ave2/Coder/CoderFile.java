@@ -1,12 +1,9 @@
 package ua.com.javarush.kkushka.ave2.Coder;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
-
-import static java.lang.System.exit;
 import static ua.com.javarush.kkushka.ave2.Coder.Coder.coder;
 
 
@@ -28,7 +25,7 @@ public class CoderFile {
             System.out.println("Ваш файл зашифрован. Он находится в файле  - FileforCoder.txt" );
 
         } catch (IOException e) {
-            exit(1);
+
 
         }
     }
