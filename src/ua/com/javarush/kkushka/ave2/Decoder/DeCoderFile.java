@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 
+import static java.lang.System.exit;
 import static ua.com.javarush.kkushka.ave2.Coder.Coder.coder;
 
 
@@ -26,6 +27,7 @@ public class DeCoderFile {
             }
             System.out.println("Ваш файл расшифрован. Он находится в файле  - Decoderfile.txt");
         } catch (IOException e) {
+            exit(1);
         }
     }
 }
