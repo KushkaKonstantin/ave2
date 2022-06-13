@@ -12,8 +12,8 @@ public class BruteForceFile {
 
 
     public static void bruteForseFile() {
-        Path pathToFileForCoder = Path.of("src/ua/com/javarush/kkushka/modul1/Coder/FileforCoder.txt").toAbsolutePath();
-        Path pathToFileWithBrute = Path.of("src/ua/com/javarush/kkushka/modul1/BruteForce/FileWithBrute.txt").toAbsolutePath();
+        Path pathToFileForCoder = Path.of("src/ua/com/javarush/kkushka/ave2/Coder/FileforCoder.txt").toAbsolutePath();
+        Path pathToFileWithBrute = Path.of("src/ua/com/javarush/kkushka/ave2/BruteForce/FileWithBrute.txt").toAbsolutePath();
 
         try (FileReader fileReader = new FileReader(pathToFileForCoder.toFile());
              BufferedReader bufferedReader = new BufferedReader(fileReader);
